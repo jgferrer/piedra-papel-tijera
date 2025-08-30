@@ -1,0 +1,41 @@
+# Archivos de compilación SGDK
+*.bin
+*.out
+*.o
+*.s
+*.elf
+*.lst
+*.map
+
+# Archivos generados por SGDK
+rom.bin
+rom.out
+rom.elf
+rom.map
+
+# Carpetas temporales de compilación
+out/
+tmp/
+
+# Archivos de depuración
+*.sym
+*.debug
+
+# Archivos de respaldo
+*~
+*.bak
+*.orig
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de IDEs
+*.code-workspace
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log

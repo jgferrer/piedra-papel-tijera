@@ -29,6 +29,8 @@ piedra-papel-tijera/
 │   └── main.c             # Código principal del juego
 ├── inc/                    # Archivos de cabecera
 │   └── game.h             # Definiciones del juego
+├── Makefile               # Archivo Make para compilación
+├── .gitignore             # Archivos a ignorar en Git
 └── README.md              # Este archivo
 ```
 
@@ -70,6 +72,13 @@ Para compilar este proyecto necesitas:
 2. Navega hasta la carpeta del proyecto
 3. Ejecuta el comando de compilación:
 
+   **Opción 1 - Usando el Makefile incluido (recomendado):**
+   ```bash
+   make rom
+   ```
+   
+   **Opción 2 - Comando directo SGDK:**
+   
    **Windows:**
    ```bash
    %GDK%\bin\make -f %GDK%\makefile.gen
@@ -78,6 +87,12 @@ Para compilar este proyecto necesitas:
    **Linux/Mac:**
    ```bash
    make -f $GDK/makefile.gen
+   ```
+
+   **Comandos adicionales del Makefile:**
+   ```bash
+   make clean    # Limpiar archivos temporales
+   make help     # Mostrar ayuda
    ```
 
 ### 3. Resultado
